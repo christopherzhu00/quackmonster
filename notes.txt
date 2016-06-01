@@ -1,0 +1,5 @@
+after send syn, start timer
+After client receives syn-ack, he knows the initial sequence number
+If receive out-of-order packet, put into input buffer in correct section, send ack of first un-received packet
+
+maintain timer for first un-acked packet

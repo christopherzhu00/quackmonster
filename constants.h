@@ -1,0 +1,9 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+const int BODY_SIZE = 1024;
+const int PACKET_LENGTH = 1032;
+const int MAX_SEQUENCE_NUMBER = 30720;
+const int RETRANSMISSION_TIMEOUT = 500;
+
+#endif
